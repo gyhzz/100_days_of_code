@@ -74,7 +74,6 @@ def mixer(l, s, n):
     return password
 
 
-
 def main():
 
     print('Welcome to the PyPassword Generator!')
