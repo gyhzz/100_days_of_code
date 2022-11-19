@@ -1,3 +1,10 @@
+######################################
+#                                    #
+#     Day 1 - Band Name Generator    #
+#                                    #
+######################################
+
+
 if __name__ == '__main__':
 	
 	print('''Welcome to the Band Name Generator.
