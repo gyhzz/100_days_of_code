@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
 	people = input('How many peopel to split the bill? ')
 
-	total_bill = int(bill) * int(tip)
+	total_bill = int(bill) + int(tip)
 
 	per_person = total_bill/int(people)
 
