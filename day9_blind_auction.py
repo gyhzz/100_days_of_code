@@ -5,6 +5,7 @@
 #################################
 
 import assets.day9_art as art
+import os
 
 
 def get_input(type):
@@ -60,6 +61,8 @@ def main():
         player = player_name()
         bet = player_bet()
         bets[player] = bet
+
+        os.system('cls')
 
         if not add_players():
             break
