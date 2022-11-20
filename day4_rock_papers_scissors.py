@@ -4,37 +4,15 @@
 #                                       #
 #########################################
 
+import assets.day4_art as art
 import random
-
 
 wins = {0: 2, 1: 0, 2: 1}
 
 
 def display_option(choice):
 
-    if choice == 0:
-        print('''    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)''')
-
-    elif choice == 1:
-        print('''    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)''')
-
-    elif choice == 2:
-        print('''    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)''')
+    print(art.choices[choice])
 
 
 def get_choice():
